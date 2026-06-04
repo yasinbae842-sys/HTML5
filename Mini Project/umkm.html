@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMKM Soto Nusantara</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f8f8f8;
+            line-height:1.6;
+        }
+
+        header{
+            background:#228B22;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        nav{
+            background:#145214;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        section{
+            padding:30px;
+        }
+
+        .menu-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            justify-content:center;
+        }
+
+        article{
+            background:white;
+            width:280px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        article img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        article h3{
+            margin:10px 0;
+            color:#228B22;
+        }
+
+        .harga{
+            color:red;
+            font-weight:bold;
+            margin-top:10px;
+        }
+
+        footer{
+            background:#145214;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>UMKM Soto Nusantara</h1>
+        <p>Nikmati Soto Lezat Khas Indonesia dengan Harga Terjangkau</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section class="banner">
+    <img src="images/banner-soto.jpg" alt="Banner Soto">
+</section>
+
+    <!-- Section Beranda -->
+    <section id="beranda">
+        <h2>Selamat Datang</h2>
+        <p>
+            Soto melambangkan keharmonisan dan akulturasi budaya Nusantara. Filosofi utamnya adalah Unity in Diversoto
+            (keberagaman rasa yang menyatu) dan "Bagi Roso, Bagi Roto" mengajak manusia saling berbagi rasa Nikmat
+            dalam kebersamaan.
+        </p>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu">
+        <h2>Daftar Menu Soto</h2>
+        <br>
+
+        <div class="menu-container">
+
+            <article>
+                <img src="images/soto-ayam.jpg" alt="Soto Ayam">
+                <h3>Soto Ayam</h3>
+                <p>Soto ayam dengan kuah kuning gurih dan suwiran ayam pilihan.</p>
+                <p class="harga">Rp 15.000</p>
+            </article>
+
+            <article>
+                <img src="images/soto-betawi.jpg" alt="Soto Betawi">
+                <h3>Soto Betawi</h3>
+                <p>Soto khas Betawi dengan kuah santan dan daging sapi empuk.</p>
+                <p class="harga">Rp 25.000</p>
+            </article>
+
+            <article>
+                <img src="images/soto-lamongan.jpg" alt="Soto Lamongan">
+                <h3>Soto Lamongan</h3>
+                <p>Soto ayam khas Lamongan dengan taburan koya yang gurih.</p>
+                <p class="harga">Rp 18.000</p>
+            </article>
+
+            <article>
+                <img src="images/soto-kudus.jpg" alt="Soto Kudus">
+                <h3>Soto Kudus</h3>
+                <p>Soto bening khas Kudus dengan rasa ringan dan segar.</p>
+                <p class="harga">Rp 17.000</p>
+            </article>
+
+            <article>
+                <img src="images/soto-medan.jpg" alt="Soto Medan">
+                <h3>Soto Medan</h3>
+                <p>Soto dengan kuah santan kental dan rempah khas Medan.</p>
+                <p class="harga">Rp 22.000</p>
+            </article>
+
+            <article>
+                <img src="images/soto-daging.jpg" alt="Soto Daging">
+                <h3>Soto Daging</h3>
+                <p>Potongan daging sapi pilihan dengan kuah kaldu yang kaya rasa.</p>
+                <p class="harga">Rp 23.000</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Section Tentang -->
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            UMKM Soto Nusantara berdiri sejak tahun 2020 dengan tujuan
+            memperkenalkan beragam soto khas Indonesia kepada masyarakat.
+        </p>
+    </section>
+
+    <!-- Section Kontak -->
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <p>📍 Tangerang, Banten</p>
+        <p>📞 0812-3456-7890</p>
+        <p>📧 sotonusantara@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 UMKM Soto Nusantara | Semua Hak Dilindungi</p>
+    </footer>
+
+</body>
+</html>
