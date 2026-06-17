@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Tugas Praktikum - Sistem Data Mahasiswa</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>📊 Sistem Data Mahasiswa</h1>
+
+<p class="subtitle">
+
+Input Data Nilai Mahasiswa Menggunakan JavaScript
+
+</p>
+
+
+<div class="form-group">
+
+<label>Nama Mahasiswa</label>
+
+<input
+type="text"
+id="namaData"
+placeholder="Masukkan nama mahasiswa">
+
+
+<label>Nilai</label>
+
+<input
+type="number"
+id="nilaiData"
+placeholder="Masukkan nilai">
+
+
+</div>
+
+
+<div class="button-group">
+
+<button onclick="simpanData()">
+
+💾 Simpan
+
+</button>
+
+<button onclick="tampilkanData()">
+
+📋 Tampilkan Data
+
+</button>
+
+<button onclick="resetData()">
+
+🗑 Reset
+
+</button>
+
+</div>
+
+
+
+<div id="statistik" class="statistik">
+
+<h3>📈 Statistik Nilai</h3>
+
+<p>Belum ada data.</p>
+
+</div>
+
+
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>No</th>
+
+<th>Nama</th>
+
+<th>Nilai</th>
+
+<th>Grade</th>
+
+</tr>
+
+</thead>
+
+<tbody id="isiTabel">
+
+</tbody>
+
+</table>
+
+
+</div>
+
+</div>
+
+<script src="../script.js"></script>
+
+</body>
+</html>

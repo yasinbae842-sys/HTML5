@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Project - Biodata Mahasiswa</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🎓 Mini Project</h1>
+
+        <p class="subtitle">
+            Aplikasi Biodata Mahasiswa
+        </p>
+
+        <div class="form-group">
+
+            <label>Nama Lengkap</label>
+            <input
+                type="text"
+                id="namaMahasiswa"
+                placeholder="Masukkan nama lengkap">
+
+            <label>NIM</label>
+            <input
+                type="text"
+                id="nimMahasiswa"
+                placeholder="Masukkan NIM">
+
+            <label>Program Studi</label>
+            <input
+                type="text"
+                id="prodiMahasiswa"
+                placeholder="Masukkan program studi">
+
+            <label>Semester</label>
+            <input
+                type="number"
+                id="semesterMahasiswa"
+                placeholder="Masukkan semester">
+
+        </div>
+
+        <button onclick="tampilMahasiswa()">
+            🎓 Tampilkan Biodata
+        </button>
+
+        <div id="hasilMahasiswa" class="hasil">
+
+            <div class="biodata-card">
+
+                <h2>🪪 Biodata Mahasiswa</h2>
+
+                <hr>
+
+                <p>
+                    Silakan isi data mahasiswa terlebih dahulu.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
