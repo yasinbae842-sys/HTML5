@@ -14,16 +14,10 @@ let mahasiswa = [
     }
 ];
 
-// ======================
-// READ ALL
-// ======================
 app.get("/api/mahasiswa", (req, res) => {
     res.json(mahasiswa);
 });
 
-// ======================
-// READ BY ID
-// ======================
 app.get("/api/mahasiswa/:id", (req, res) => {
     const id = parseInt(req.params.id);
 
@@ -38,9 +32,6 @@ app.get("/api/mahasiswa/:id", (req, res) => {
     }
 });
 
-// ======================
-// CREATE
-// ======================
 app.post("/api/mahasiswa", (req, res) => {
 
     const data = {
@@ -56,9 +47,6 @@ app.post("/api/mahasiswa", (req, res) => {
 
 });
 
-// ======================
-// UPDATE
-// ======================
 app.put("/api/mahasiswa/:id", (req, res) => {
 
     const id = parseInt(req.params.id);
@@ -82,9 +70,6 @@ app.put("/api/mahasiswa/:id", (req, res) => {
 
 });
 
-// ======================
-// DELETE
-// ======================
 app.delete("/api/mahasiswa/:id", (req, res) => {
 
     const id = parseInt(req.params.id);
